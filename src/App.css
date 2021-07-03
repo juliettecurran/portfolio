@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('bootstrap/dist/css/bootstrap.min.css');
+a {
+  text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#navbarName {
+  /*font-family: 'Pacifico', cursive;*/
+  font-family: 'Press Start 2P', cursive;
+  font-size: larger;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a:hover {
+  text-decoration: none;
+  color: black;
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+hr {
+  width: 40%;
+  margin: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.card {
+  border: none;
+}
+
+.nav-link {
+  font-weight: 500;
+}
+
+.portrait {
+  border-radius: 10px 100px / 120px;
+}
+.Banner::before {
+  content: '';
+  width: 100%;
+  height: 96px;
+  display: block;
+}
+.gay {
+  --g-red: #d04b36;
+  --g-orange: #e36511;
+  --g-yellow: #ffba00;
+  --g-green: #00b180;
+  --g-blue: #147aab;
+  --g-indigo: #675997;
+  background-image: linear-gradient(
+    var(--g-red) 0%,
+    var(--g-red) 16.6666%,
+    var(--g-orange) 16.6666%,
+    var(--g-orange) 33.333%,
+    var(--g-yellow) 33.333%,
+    var(--g-yellow) 50%,
+    var(--g-green) 50%,
+    var(--g-green) 66.6666%,
+    var(--g-blue) 66.6666%,
+    var(--g-blue) 83.3333%,
+    var(--g-indigo) 83.3333%,
+    var(--g-indigo) 100%
+  );
+  height: 40px;
+}
+
+footer a {
+  text-decoration: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+footer a:hover {
+  text-decoration: none;
+  color: #ec0eec;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fa-linkedin-in:hover,
+.fa-twitter:hover,
+.fa-github:hover {
+  color: #ec0eec;
 }
