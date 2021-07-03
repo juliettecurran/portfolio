@@ -1,9 +1,9 @@
 import './App.css';
 import Header from './Components/Header';
+import WelcomeMsg from './Components/WelcomeMsg';
+import Technologies from './Components/Technologies';
 import Projects from './Components/Projects';
 import Footer from './Components/Footer';
-import Technologies from './Components/Technologies';
-import WelcomeMsg from './Components/WelcomeMsg';
 
 function App() {
   return (
