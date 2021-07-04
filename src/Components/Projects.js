@@ -18,10 +18,10 @@ const Projects = () => {
             <div className='col-md-4'>
               <img
                 className='img-fluid rounded mt-1 mb-2'
-                src=' https://dummyimage.com/1170x700/5fa9f8/efefef'
+                src=' https://dummyimage.com/1070x600/5fa9f8/efefef'
                 alt=''
               />
-              <h4>
+              <h4 class='projectTitle'>
                 <a href='scratchPost.html'>Scratch Post</a>
               </h4>
               <p className='text-h3'>
@@ -32,7 +32,7 @@ const Projects = () => {
             <div className='col-md-4'>
               <img
                 className='img-fluid rounded mt-1 mb-2'
-                src=' https://dummyimage.com/1170x700/5fa9f8/efefef'
+                src=' https://dummyimage.com/1070x600/5fa9f8/efefef'
                 alt=''
               />
               <h4>nc-games</h4>
@@ -44,7 +44,7 @@ const Projects = () => {
             <div className='col-md-4'>
               <img
                 className='img-fluid rounded mt-1 mb-2'
-                src=' https://dummyimage.com/1170x700/5fa9f8/efefef'
+                src=' https://dummyimage.com/1070x600/5fa9f8/efefef'
                 alt=''
               />
               <h4>Pokemon</h4>
@@ -64,7 +64,7 @@ const Projects = () => {
             <div className='col-md-4'>
               <img
                 className='img-fluid rounded mt-1 mb-2'
-                src=' https://dummyimage.com/1170x700/5fa9f8/efefef'
+                src=' https://dummyimage.com/1070x600/5fa9f8/efefef'
                 alt=''
               />
               <h4>Leah's Collage</h4>
@@ -76,7 +76,7 @@ const Projects = () => {
             <div className='col-md-4'>
               <img
                 className='img-fluid rounded mt-1 mb-2'
-                src=' https://dummyimage.com/1170x700/5fa9f8/efefef'
+                src=' https://dummyimage.com/1070x600/5fa9f8/efefef'
                 alt=''
               />
               <h4>Linzi's Art</h4>
@@ -88,7 +88,7 @@ const Projects = () => {
             <div className='col-md-4'>
               <img
                 className='img-fluid rounded mt-1 mb-2'
-                src=' https://dummyimage.com/1170x700/5fa9f8/efefef'
+                src=' https://dummyimage.com/1070x600/5fa9f8/efefef'
                 alt=''
               />
               <h4>Batman</h4>

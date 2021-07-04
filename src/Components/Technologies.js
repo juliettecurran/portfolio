@@ -3,6 +3,7 @@ import React from 'react';
 const Technologies = () => {
   return (
     <div>
+      <hr></hr>
       <section class='text-dark pt-5 pb-5'>
         <div class='container'>
           <div class='row text-center'>
@@ -182,6 +183,7 @@ const Technologies = () => {
           </div>
         </div>
       </section>
+      <hr></hr>
     </div>
   );
 };

@@ -17,6 +17,26 @@ a {
 .nav-link {
   font-weight: 500;
 }
+.spikes {
+  position: relative;
+  background: #000000;
+  height: 10vh;
+}
+
+.spikes::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  left: -0%;
+  top: 100%;
+  z-index: 10;
+  display: block;
+  height: 50px;
+  background-size: 50px 100%;
+  background-image: linear-gradient(135deg, #000000 25%, transparent 25%),
+    linear-gradient(225deg, #000000 25%, transparent 25%);
+  background-position: 0 0;
+}
 
 a:hover {
   text-decoration: none;

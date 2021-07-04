@@ -10,7 +10,7 @@ const WelcomeMsg = () => {
               <div className='row align-items-start justify-content-between'>
                 <div className='col-3 p-md-1'>
                   <img
-                    src='portfolio_site/src/imgs/portraitPhoto.jpg'
+                    src='./imgs/portraitPhoto.jpg'
                     className='img-fluid py-0 portrait'
                     alt='portrait'
                   />
