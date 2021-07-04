@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('bootstrap/dist/css/bootstrap.min.css');
+
+/* ----- HEADER ----- */
+
 a {
   text-decoration: none;
 }
@@ -11,6 +14,10 @@ a {
   font-size: larger;
 }
 
+.nav-link {
+  font-weight: 500;
+}
+
 a:hover {
   text-decoration: none;
   color: black;
@@ -18,19 +25,17 @@ a:hover {
   background-clip: text;
   -webkit-background-clip: text;
 }
-hr {
-  width: 40%;
-  margin: auto;
-}
 
 .card {
   border: none;
 }
 
-.nav-link {
-  font-weight: 500;
-}
+/* ----- WELCOMEMSG ----- */
 
+hr {
+  width: 40%;
+  margin: auto;
+}
 .portrait {
   border-radius: 10px 100px / 120px;
 }
@@ -63,6 +68,20 @@ hr {
   );
   height: 40px;
 }
+
+#northcodersLogo {
+  width: 10em;
+}
+
+#mmuLogo {
+  width: 13em;
+}
+
+/* ----- TECHNOLOGIES ----- */
+
+/* ----- PROJECTS ----- */
+
+/* ----- FOOTER ----- */
 
 footer a {
   text-decoration: none;

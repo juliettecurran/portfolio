@@ -3,22 +3,22 @@ import React from 'react';
 const Footer = () => {
   return (
     <div>
-      <section class='pt-5 pb-5 bg-dark text-white'>
-        <footer class='footer'>
-          <div class='container'>
-            <div class='row'>
-              <div class='col-md-6 text-center text-md-start'>
+      <section className='pt-5 pb-5 bg-dark text-white'>
+        <footer className='footer'>
+          <div className='container'>
+            <div className='row'>
+              <div className='col-md-6 text-center text-md-start'>
                 <p>Copyright © Juliette Curran</p>
               </div>
-              <div class='footerIcons col-md-6 text-center text-md-end mb-4'>
+              <div className='footerIcons col-md-6 text-center text-md-end mb-4'>
                 <a
                   href='https://twitter.com/juliette_codes'
                   target='_blank'
                   rel='noreferrer'
-                  class='m-2'
+                  className='m-2'
                 >
                   <i
-                    class='fab fa-twitter fa-lg text-white'
+                    className='fab fa-twitter fa-lg text-white'
                     aria-hidden='true'
                   ></i>
                 </a>
@@ -26,10 +26,10 @@ const Footer = () => {
                   href='https://github.com/juliettecurran'
                   target='_blank'
                   rel='noreferrer'
-                  class='m-2'
+                  className='m-2'
                 >
                   <i
-                    class='fab fa-github fa-lg text-white'
+                    className='fab fa-github fa-lg text-white'
                     aria-hidden='true'
                   ></i>
                 </a>
@@ -37,10 +37,10 @@ const Footer = () => {
                   href='https://www.linkedin.com/in/juliette-dev/'
                   target='_blank'
                   rel='noreferrer'
-                  class='m-2'
+                  className='m-2'
                 >
                   <i
-                    class='fab fa-linkedin-in fa-lg text-white'
+                    className='fab fa-linkedin-in fa-lg text-white'
                     aria-hidden='true'
                   ></i>
                 </a>
