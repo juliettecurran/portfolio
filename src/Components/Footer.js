@@ -14,6 +14,7 @@ const Footer = () => {
                 <a
                   href='https://twitter.com/juliette_codes'
                   target='_blank'
+                  rel='noreferrer'
                   class='m-2'
                 >
                   <i
@@ -24,6 +25,7 @@ const Footer = () => {
                 <a
                   href='https://github.com/juliettecurran'
                   target='_blank'
+                  rel='noreferrer'
                   class='m-2'
                 >
                   <i
@@ -34,6 +36,7 @@ const Footer = () => {
                 <a
                   href='https://www.linkedin.com/in/juliette-dev/'
                   target='_blank'
+                  rel='noreferrer'
                   class='m-2'
                 >
                   <i
