@@ -8,6 +8,9 @@ a {
   text-decoration: none;
 }
 
+.navbar {
+  padding: 1.3em 0 1.3em 0;
+}
 #navbarName {
   /*font-family: 'Pacifico', cursive;*/
   font-family: 'Press Start 2P', cursive;
