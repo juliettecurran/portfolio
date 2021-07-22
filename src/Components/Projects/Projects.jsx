@@ -71,8 +71,8 @@ const Projects = () => {
                 >
                   <FontAwesomeIcon icon='code' />{' '}
                 </a>{' '}
-                <a class='btn btn-primary mt-3 mb-3' href='#'>
-                  Website
+                <a class='btn btn-primary mt-3 mb-3' href='#' disabled>
+                  To Be Hosted
                 </a>
               </p>
             </div>
