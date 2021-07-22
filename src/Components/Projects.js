@@ -18,7 +18,10 @@ const Projects = () => {
               <p class='text-h3'>
                 For my group's Final Project at Northcoders, we have decided to
                 make a multiple-choice musical trivia app. This will the team's
-                first time learning and implementing React Native, AWS and SASS.
+                first time learning and implementing{' '}
+                <span className='Frontend'>React Native</span>,{' '}
+                <span className='Backend'>AWS</span> and{' '}
+                <span className='CSS'>SASS</span>.
               </p>
               <p>
                 <a class='btn btn-primary mt-3 mb-3 disabled' href='#'>
@@ -56,9 +59,11 @@ const Projects = () => {
               <h1>Gamerville</h1>
               <p class='text-h3'>
                 This self-made API uses node-postgres to interact with a PSQL
-                database, complete with routed endpoints and a React and
-                Material UI Front-End. This was my first experience with
-                Material UI - I love learning new CSS frameworks!
+                database, complete with routed endpoints and a{' '}
+                <span className='Frontend'>React</span> and{' '}
+                <span className='CSS'>Material UI</span> Front-End. This was my
+                first experience with Material UI - I love learning new CSS
+                frameworks!
               </p>
               <p>
                 <a
@@ -79,8 +84,8 @@ const Projects = () => {
               <h1>Scratch Post</h1>
               <p class='text-h3'>
                 A collection of coded HTML and CSS elements to help your build
-                your new website. Clean design, fully responsive and based on
-                Bootstrap 5.
+                your new website. Clean design, fully responsive and based on{' '}
+                <span className='CSS'>Bootstrap 5</span>.
               </p>
               <p>
                 <a class='btn btn-primary mt-3 mb-3' href='#'>
@@ -115,8 +120,9 @@ const Projects = () => {
               <h1>Screen Search</h1>
               <p class='text-h3'>
                 I'm a big TV fan so to test my API skills I created a search
-                engine which utilises the TVMaze API. It displays all relevant
-                show data when a user inputs a search term.
+                engine which utilises the TVMaze API and{' '}
+                <span className='Frontend'>React</span>. It displays all
+                relevant show data when a user inputs a search term.
               </p>
               <p>
                 <a
