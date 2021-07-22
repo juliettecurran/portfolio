@@ -1,7 +1,11 @@
 import React from 'react';
 import songAppFigma from '../imgs/SongAppFigma.png';
 import GamervilleFigma from '../imgs/GamervilleFigma.png';
-import MarketplaceFigma from '../imgs/MarketplaceFigma.png';
+import GamervilleGIF from '../imgs/Gamerville.gif';
+import GamervilleHome from '../imgs/GamervilleHome.png';
+import scratchPostCropped from '../imgs/scratchPost.png';
+import screenSearch from '../imgs/screenSearch.gif';
+import screenSearchFigma from '../imgs/screenSearchFigma.png';
 
 const Projects = () => {
   return (
@@ -46,11 +50,7 @@ const Projects = () => {
               <img alt='image' class='img-fluid' src={GamervilleFigma}></img>
             </div>
             <div class='col-12 col-md-4   mt-4 mt-md-0'>
-              <img
-                alt='image'
-                class='img-fluid'
-                src=' https://dummyimage.com/450x250/5fa9f8/fff'
-              ></img>
+              <img alt='image' class='img-fluid' src={GamervilleGIF}></img>
             </div>
             <div class='col-12 col-md-4   '>
               <h1>Gamerville</h1>
@@ -61,7 +61,10 @@ const Projects = () => {
                 Material UI - I love learning new CSS frameworks!
               </p>
               <p>
-                <a class='btn btn-primary mt-3 mb-3' href='#'>
+                <a
+                  class='btn btn-primary mt-3 mb-3'
+                  href='https://github.com/juliettecurran/nc-games'
+                >
                   Take a look
                 </a>
               </p>
@@ -73,7 +76,7 @@ const Projects = () => {
         <div class='container'>
           <div class='row align-items-center justify-content-between'>
             <div class='col-12 col-md-4   '>
-              <h1>NC-Marketplace</h1>
+              <h1>Scratch Post</h1>
               <p class='text-h3'>
                 A collection of coded HTML and CSS elements to help your build
                 your new website. Clean design, fully responsive and based on
@@ -86,13 +89,14 @@ const Projects = () => {
               </p>
             </div>
             <div class='col-12 col-md-4   mt-4 mt-md-0'>
-              <img alt='image' class='img-fluid' src={MarketplaceFigma}></img>
+              <img alt='image' class='img-fluid' src=''></img>
             </div>
             <div class='col-12 col-md-4   mt-4 mt-md-0'>
               <img
                 alt='image'
                 class='img-fluid'
-                src=' https://dummyimage.com/450x250/5fa9f8/fff'
+                style={{ border: '1px solid Gainsboro' }}
+                src={scratchPostCropped}
               ></img>
             </div>
           </div>
@@ -102,28 +106,23 @@ const Projects = () => {
         <div class='container'>
           <div class='row align-items-center justify-content-between'>
             <div class='col-12 col-md-4   mt-4 mt-md-0'>
-              <img
-                alt='image'
-                class='img-fluid'
-                src=' https://dummyimage.com/450x250/5fa9f8/fff'
-              ></img>
+              <img alt='image' class='img-fluid' src={screenSearchFigma}></img>
             </div>
             <div class='col-12 col-md-4   mt-4 mt-md-0'>
-              <img
-                alt='image'
-                class='img-fluid'
-                src=' https://dummyimage.com/450x250/5fa9f8/fff'
-              ></img>
+              <img alt='image' class='img-fluid' src={screenSearch}></img>
             </div>
-            <div class='col-12 col-md-4   '>
+            <div class='col-12 col-md-4'>
               <h1>Screen Search</h1>
               <p class='text-h3'>
                 I'm a big TV fan so to test my API skills I created a search
                 engine which utilises the TVMaze API. It displays all relevant
-                show data and uses React.
+                show data when a user inputs a search term.
               </p>
               <p>
-                <a class='btn btn-primary mt-3 mb-3' href='#'>
+                <a
+                  class='btn btn-primary mt-3 mb-3'
+                  href='https://github.com/juliettecurran/fe-react-data-visualisation'
+                >
                   Take a look
                 </a>
               </p>
