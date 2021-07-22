@@ -1,11 +1,12 @@
 import React from 'react';
-import songAppFigma from '../imgs/SongAppFigma.png';
-import GamervilleFigma from '../imgs/GamervilleFigma.png';
-import GamervilleGIF from '../imgs/Gamerville.gif';
-import GamervilleHome from '../imgs/GamervilleHome.png';
-import scratchPostCropped from '../imgs/scratchPost.png';
-import screenSearch from '../imgs/screenSearch.gif';
-import screenSearchFigma from '../imgs/screenSearchFigma.png';
+import songAppFigma from '../../imgs/SongAppFigma.png';
+import './projects.css';
+import GamervilleGIF from '../../imgs/Gamerville.gif';
+import GamervilleHome from '../../imgs/GamervilleHome.png';
+import scratchPostCropped from '../../imgs/scratchPost.png';
+import screenSearch from '../../imgs/screenSearch.gif';
+import screenSearchFigma from '../../imgs/screenSearchFigma.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Projects = () => {
   return (
@@ -24,7 +25,7 @@ const Projects = () => {
                 <span className='CSS'>SASS</span>.
               </p>
               <p>
-                <a class='btn btn-primary mt-3 mb-3 disabled' href='#'>
+                <a class='btn mt-3 mb-3 disabled' href='#'>
                   In Progress
                 </a>
               </p>
@@ -50,7 +51,7 @@ const Projects = () => {
         <div class='container'>
           <div class='row align-items-center justify-content-between'>
             <div class='col-12 col-md-4   mt-4 mt-md-0'>
-              <img alt='image' class='img-fluid' src={GamervilleFigma}></img>
+              <img alt='image' class='img-fluid' src={''}></img>
             </div>
             <div class='col-12 col-md-4   mt-4 mt-md-0'>
               <img alt='image' class='img-fluid' src={GamervilleGIF}></img>
@@ -67,10 +68,13 @@ const Projects = () => {
               </p>
               <p>
                 <a
-                  class='btn btn-primary mt-3 mb-3'
+                  class='btn mt-3 mb-3'
                   href='https://github.com/juliettecurran/nc-games'
                 >
-                  Take a look
+                  <FontAwesomeIcon icon='code' />{' '}
+                </a>{' '}
+                <a class='btn btn-primary mt-3 mb-3' href='#'>
+                  Website
                 </a>
               </p>
             </div>
@@ -88,8 +92,17 @@ const Projects = () => {
                 <span className='CSS'>Bootstrap 5</span>.
               </p>
               <p>
-                <a class='btn btn-primary mt-3 mb-3' href='#'>
-                  Take a look
+                <a
+                  class='btn mt-3 mb-3'
+                  href='https://github.com/juliettecurran/scratchPost'
+                >
+                  <FontAwesomeIcon icon='code' />{' '}
+                </a>{' '}
+                <a
+                  class='btn btn-primary mt-3 mb-3'
+                  href='https://juliettecurran.github.io/scratchPost/'
+                >
+                  Website
                 </a>
               </p>
             </div>
@@ -126,11 +139,11 @@ const Projects = () => {
               </p>
               <p>
                 <a
-                  class='btn btn-primary mt-3 mb-3'
+                  class='btn mt-3 mb-3'
                   href='https://github.com/juliettecurran/fe-react-data-visualisation'
                 >
-                  Take a look
-                </a>
+                  <FontAwesomeIcon icon='code' />{' '}
+                </a>{' '}
               </p>
             </div>
           </div>

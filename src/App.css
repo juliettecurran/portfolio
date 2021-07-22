@@ -41,7 +41,7 @@ a {
   background-position: 0 0;
 }
 
-a:hover {
+.nav-link:hover {
   text-decoration: none;
   color: black;
   background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
@@ -138,4 +138,9 @@ footer a:hover {
   background-color: rgb(8, 156, 8);
   padding: 3px;
   color: white;
+}
+
+.btn {
+  background: '#212529';
+  color: 'white';
 }

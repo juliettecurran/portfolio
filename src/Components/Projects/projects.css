@@ -1,0 +1,13 @@
+.btn {
+  color: white;
+  background-color: #212529;
+  border: none;
+}
+
+.btn:hover,
+a:hover,
+.btn:active {
+  background-color: yellow;
+}
+
+a: hover;
