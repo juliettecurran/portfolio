@@ -7,7 +7,30 @@
 .btn:hover,
 a:hover,
 .btn:active {
-  background-color: yellow;
+  background-color: grey;
 }
 
-a: hover;
+.Frontend {
+  background-color: #d04b36;
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
+}
+
+.Backend {
+  background-color: #147aab;
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
+}
+
+.CSS {
+  background-color: #00b180;
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
+}
+
+p {
+  line-height: 2em;
+}

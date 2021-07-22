@@ -122,24 +122,6 @@ footer a:hover {
   color: #ec0eec;
 }
 
-.Frontend {
-  background-color: red;
-  padding: 3px;
-  color: white;
-}
-
-.Backend {
-  background-color: rgb(0, 38, 255);
-  padding: 3px;
-  color: white;
-}
-
-.CSS {
-  background-color: rgb(8, 156, 8);
-  padding: 3px;
-  color: white;
-}
-
 .btn {
   background: '#212529';
   color: 'white';
