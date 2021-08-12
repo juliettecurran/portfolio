@@ -1,14 +1,12 @@
-import './App.css';
-import IconLibrary from './Components/Library/IconLibrary';
-import Header from './Components/Header';
-import WelcomeMsg from './Components/WelcomeMsg';
-import Technologies from './Components/Technologies';
-import Projects from './Components/Projects/Projects';
-import Footer from './Components/Footer';
+import "./App.css";
+import Header from "./Components/Header";
+import WelcomeMsg from "./Components/WelcomeMsg";
+import Projects from "./Components/Projects/Projects";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
-    <div className='App'>
+    <div className="App">
       <Header />
       <WelcomeMsg />
       <Projects />
