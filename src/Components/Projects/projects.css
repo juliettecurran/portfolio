@@ -1,36 +1,41 @@
+.projects {
+	width: 100%;
+	margin: auto;
+}
+
 .btn {
-  color: white;
-  background-color: #212529;
-  border: none;
+	color: white;
+	background-color: #212529;
+	border: none;
 }
 
 .btn:hover,
 a:hover,
 .btn:active {
-  background-color: grey;
+	background-color: grey;
 }
 
 .Frontend {
-  background-color: #d04b36;
-  padding: 5px;
-  border-radius: 10px;
-  color: white;
+	background-color: #d04b36;
+	padding: 5px;
+	border-radius: 10px;
+	color: white;
 }
 
 .Backend {
-  background-color: #147aab;
-  padding: 5px;
-  border-radius: 10px;
-  color: white;
+	background-color: #147aab;
+	padding: 5px;
+	border-radius: 10px;
+	color: white;
 }
 
 .CSS {
-  background-color: #00b180;
-  padding: 5px;
-  border-radius: 10px;
-  color: white;
+	background-color: #00b180;
+	padding: 5px;
+	border-radius: 10px;
+	color: white;
 }
 
 p {
-  line-height: 2em;
+	line-height: 2em;
 }
